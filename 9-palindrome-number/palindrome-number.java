@@ -6,12 +6,12 @@ class Solution {
         if (x<0){
             return false;
         }
-        else{
+        
         while(number!=0){
             digit=number%10;
             reverse=reverse*10+digit;
             number=number/10;
-        }     
+             
         }
         if(reverse==x){
             return true;
