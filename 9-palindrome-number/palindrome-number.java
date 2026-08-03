@@ -13,11 +13,8 @@ class Solution {
             number=number/10;
              
         }
-        if(reverse==x){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return (reverse==x);
+
+    
     }
 }
